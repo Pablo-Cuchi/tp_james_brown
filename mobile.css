@@ -1,0 +1,222 @@
+#centrarcontenido {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.divimagen, .divimagenform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/banner_1355comprimida.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+.divimagenform {
+    background-image: none;
+}
+
+.divname {
+    text-align: center;
+    margin-right: 0px;
+    
+}
+
+.divname h1 {
+    font-size: 50px;
+    color: #ecdf23;
+    text-shadow: #040404 3px 4px 1px;
+}
+
+.divname h2 {
+    font-size: 24px;
+    color: #ecdf23;
+    text-shadow: #040404 3px 4px 1px;
+}
+
+
+
+.textoderecha {
+    background-color: antiquewhite;
+    columns: auto;
+}
+
+.textoizquierda {
+    background-color: #8ebaab;
+    columns: auto;
+}
+
+
+
+.textoderecha .infojames, .textoizquierda .infojames { 
+    text-indent: 30px;
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+
+.textoderecha .infojames p, .textoizquierda .infojames p, .instrumentos p, .disk p { 
+    padding: 8px 4px;
+    text-align: justify;
+}
+
+
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+.textoderecha img:first-of-type {
+    margin-top: 10px;
+    box-shadow: 10px -8px 17px;
+}
+
+.textoizquierda img:first-of-type {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    box-shadow: 10px -8px 17px;
+}
+
+
+
+.instrumentos {
+    width: 100%;
+    background-color: #f5f5dc;
+    margin-top: 2px;
+    padding: 2px;
+    text-indent: 30px;
+
+}
+
+
+.groove {
+    
+    background-image: none;
+    
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+
+footer ul li {
+	
+	width: 100px;
+	
+	margin:0px 0px;
+	
+}
+
+/* --------------ESTILOS DSICOGRAFIA*/
+.disk {
+    display: block;
+   
+}
+
+.divimagendisco {
+    display: none;
+}
+
+.disk div {
+    
+    margin-right: 0px;
+    
+}
+
+.disk figure img{
+    padding-top: 10px;
+}
+
+
+/*-------------ESTILOS PARA EL CONTENEDOR  MULTIMEDIA*/
+
+.multimedia {
+    background-color: #b95b3a;
+    color: antiquewhite;
+    text-align: center;
+    padding-bottom: 240px;
+    padding-top: 1px;
+    height: 500px;
+    align-content: center;
+}
+
+
+iframe {
+    border: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+/*-------------FORMULARIO*/
+
+fieldset span, fieldset input {
+    display: block;
+    width: 100%;
+    padding: 3px;
+}
+
+.contenedorform {
+    width: 100%;
+}
+
+
+/*----------menu hamburguesa*/
+
+#menu{
+	background: url(img/menu_48px.png) no-repeat;
+	width: 48px; 
+	height: 48px;
+	display:inline-block;
+	font-size:0px;
+	margin-top:0px; 
+	margin-left:0px;
+}
+
+#navegacion{display: none;
+	width:200px; 
+	margin-top:10px;
+	margin-left:0px;
+}
+
+#navegacion:target{
+   display: block;
+   width: 358px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0px;
+}
+
+#licerrar {
+    display: inline-block;
+}
+
+#cerrar{
+	
+	
+	font-size: 13px;
+    color: #f70505;
+    font-weight: bold;
+}
+
+
+#desplegable {
+    width: 250px;
+    margin-bottom: 180px;
+}
+
+#opciones{
+	position:absolute;
+	padding-left:0px;
+	display:inline-block;
+	margin:0;
+	top:40px;
+	left:0px;
+}
